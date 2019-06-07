@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="main" style="text-align:center">
+  <h1 id="head">
+    My {{ title }}.
+  </h1>
+  <img width="300" alt="Todo Logo" src="assets\Todo.jpg">
+  <br>
+   <input [(ngModel)]= "newDuty"><button (click)="ToDo()">Add</button><br>
+    <fieldset><legend><span id="xx"> To Do List Information. </span></legend>
+
+  
+  <div id="zzz">
+  <p  *ngFor = "let Now of Done" >
+    <span> <button id="editor" style="float: right" (click)="delete(Now)" >delete</button>
+      <button id="editor" (click)= "editTask(Now)">Edit Job</button>
+    </span>
+    {{Now}}
+  </p>
+</div>
+
+    </fieldset>
+     <form></form>
+</div>
+
+<router-outlet></router-outlet>

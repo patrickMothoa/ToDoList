@@ -1,0 +1,33 @@
+#main{
+    background-color: cornflowerblue;
+    color: black;
+    height: 980px;
+}
+#head{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white; 
+}
+
+#xx {
+  font-weight: bolder;
+}
+#tab{
+    float: left;
+    margin: 8px;
+    width: 80%;
+    height: 30px;
+    background-color: azure;
+    border: 3px solid black;
+}
+
+#zzz{
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+#editor{
+    float: left;
+    background-color: cadetblue;
+}
